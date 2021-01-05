@@ -14,7 +14,7 @@ int main()
     int idx = 0;
     for(int i = 0; i < 256; i++)
     {
-        arr[i] = i;
+        arr[i] = i+1;
     }
     exec_check();
     return 0;
