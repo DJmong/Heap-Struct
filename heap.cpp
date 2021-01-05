@@ -16,13 +16,6 @@ int main()
     {
         arr[i] = i;
     }
-    cout << "now : " << arr[idx] << endl;
-    go_right(idx);
-    cout << "left : " << arr[idx] << endl;
-    go_left(idx);
-    cout << "right : " << arr[idx] << endl;
-    go_right(idx);
-    cout << "left : " << arr[idx] << endl;
     exec_check();
     return 0;
 }
